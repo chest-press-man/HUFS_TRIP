@@ -1,0 +1,117 @@
+<div id="container">
+  <div id="logoImg" style="text-align: center;">
+    <img src="./logo.jpg" width="300" height="100"/>
+  </div>
+  <br>
+  <br>
+  <div id="mainImg" style="text-align: center;">
+    <img src="./map.jpg" width="700" height="800" alt="mainimg"/>
+  </div>
+  <button class="gyeongi" type="button" onclick="location.href='main/web_bw/gyeonggi.html'">경기도</button>
+  <button class="seoul" type="button" onclick="location.href='main/seoul/seoul.html'">서울</button>
+  <button class="gangwon" type="button" onclick="location.href='main/gangwon/gangwon.html'">강원도</button>
+  <button class="chungnam" type="button" onclick="location.href='main/web_sw/chungnam.html'">충청남도</button>
+  <button class="chungbuk" type="button" onclick="location.href='main/chungbuk/chungbuk.html'">충청북도</button>
+  <button class="gyeongnam" type="button" onclick="location.href='main/web_sw/Gyeongnam.html'">경상남도</button>
+  <button class="gyeongbuk" type="button" onclick="location.href='main/web_bw/gyeongbuk.html'">경상북도</button>
+  <button class="jeonnam" type="button" onclick="location.href='main/web_sw/jeonnam.html'">전라남도</button>
+  <button class="jeonbuk" type="button" onclick="location.href='main/web_sw/Jeonbuk.html'">전라북도</button>
+  <button class="jeju" type="button" onclick="location.href='main/web_bw/jeju.html'">제주도</button>
+</div>
+<p>
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://nollugaja.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+<style>
+  #container {
+    position: relative;
+  }
+  #container img {
+    max-width: 100%;
+    height: auto;
+  }
+  #container button {
+    position: absolute;
+  }
+
+  /* 버튼 위치 조정을 위한 CSS */
+ /* 버튼 위치 조정을 위한 CSS */
+ #container button.seoul {
+      top: 36%;
+      left: 37%;
+      transform: translate(0%, -50%);
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.gyeongi {
+      top: 40%;
+      left: 40%;
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.gangwon {
+      top: 34%;
+      left: 52%;
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.chungnam {
+      top: 53%;
+      left: 35%;
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.chungbuk {
+      top: 50%;
+      left: 44%;
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.gyeongnam {
+      top: 72%;
+      left: 52%;
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.gyeongbuk {
+      top: 58%;
+      left: 55%;
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.jeonnam {
+      top: 77%;
+      left: 37%;
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.jeonbuk {
+      top: 67%;
+      left: 39%;
+      border-radius: 10px;
+      border:none;
+    }
+    #container button.jeju{
+      top : 96%;
+      left: 28%;
+      border-radius: 10px;
+      border:none;
+    }
+  </style>
